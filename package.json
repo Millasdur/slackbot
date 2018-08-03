@@ -1,0 +1,27 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "slack bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hugo Lely <lely.hugo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "recastai": "^3.7.0",
+    "superagent": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millasdur/slackbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Millasdur/slackbot/issues"
+  },
+  "homepage": "https://github.com/Millasdur/slackbot#readme"
+}
